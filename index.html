@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kavya Tech Support | IT Services in Delhi NCR &amp; Pan-India Remote Support</title>
+<meta name="description" content="Kavya Tech Support provides laptop &amp; desktop repair, networking, server &amp; Active Directory support, CCTV installation, Microsoft 365 setup, and IT AMC services in Delhi NCR, with remote support across India.">
+<link rel="canonical" href="https://kavyatechsupport.in/">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kavya Tech Support | Technology That Supports You">
+<meta property="og:description" content="Laptop &amp; desktop repair, networking, servers, CCTV, Microsoft 365 and IT AMC — on-site in Delhi NCR, remote support pan-India.">
+<meta property="og:image" content="https://kavyatechsupport.in/assets/logo.png">
+<meta property="og:url" content="https://kavyatechsupport.in/">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" type="image/png" href="assets/logo.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Kavya Tech Support",
+  "alternateName": "kavyatechsupport.in",
+  "image": "https://kavyatechsupport.in/assets/logo.png",
+  "url": "https://kavyatechsupport.in/",
+  "telephone": "+91-9871147873",
+  "email": "vkvijayshah@gmail.com",
+  "priceRange": "$$",
+  "areaServed": [
+    { "@type": "City", "name": "Delhi" },
+    { "@type": "Country", "name": "India" }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Delhi",
+    "addressRegion": "Delhi",
+    "addressCountry": "IN"
+  },
+  "description": "IT service provider offering laptop and desktop repair, networking, server and Active Directory support, CCTV installation, Microsoft 365 setup, remote IT support and AMC services."
+}
+</script>
+
+<style>
+  :root{
+    --void:#0A0E16;
+    --surface:#121826;
+    --surface-raised:#171F30;
+    --border:#232D42;
+    --text:#EAF0F7;
+    --muted:#8D9AB0;
+    --blue:#2E8CFF;
+    --blue-deep:#1657C7;
+    --cyan:#37D6E8;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--void);
+    color:var(--text);
+    font-family:'Inter', system-ui, sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{
+    font-family:'Space Grotesk', 'Inter', sans-serif;
+    font-weight:600;
+    line-height:1.15;
+    letter-spacing:-0.01em;
+  }
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  .wrap{
+    max-width:1120px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+  .section{padding:88px 0;}
+  @media (max-width:640px){ .section{padding:56px 0;} }
+
+  /* Header */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(10,14,22,0.85);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--border);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:14px 0;
+  }
+  .brand{display:flex; align-items:center; gap:10px;}
+  .brand img{width:36px; height:36px; border-radius:8px;}
+  .brand span{font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:1.05rem;}
+  .brand span b{color:var(--blue); font-weight:700;}
+  nav.links{display:flex; gap:32px;}
+  nav.links a{color:var(--muted); font-size:0.95rem; transition:color .2s;}
+  nav.links a:hover{color:var(--text);}
+  .cta-btn{
+    display:inline-flex; align-items:center; gap:8px;
+    background:linear-gradient(135deg, var(--blue), var(--blue-deep));
+    color:#fff; font-weight:600; font-size:0.9rem;
+    padding:10px 20px; border-radius:8px;
+    box-shadow:0 4px 20px rgba(46,140,255,0.25);
+    transition:transform .2s, box-shadow .2s;
+  }
+  .cta-btn:hover{transform:translateY(-1px); box-shadow:0 6px 24px rgba(46,140,255,0.35);}
+  .cta-btn.ghost{
+    background:transparent; box-shadow:none; border:1px solid var(--border); color:var(--text);
+  }
+  .menu-toggle{display:none; background:none; border:none; color:var(--text); font-size:1.4rem;}
+  @media (max-width:800px){
+    nav.links{display:none;}
+    .menu-toggle{display:block;}
+  }
+
+  /* Hero */
+  .hero{
+    position:relative;
+    padding:96px 0 72px;
+    overflow:hidden;
+    border-bottom:1px solid var(--border);
+  }
+  .hero-grid{
+    display:grid; grid-template-columns:1.1fr 0.9fr; gap:48px; align-items:center;
+  }
+  @media (max-width:900px){ .hero-grid{grid-template-columns:1fr;} }
+  .eyebrow-line{
+    display:flex; align-items:center; gap:10px; margin-bottom:22px; color:var(--cyan); font-size:0.85rem;
+  }
+  .eyebrow-line svg{width:16px; height:16px;}
+  h1.headline{
+    font-size:clamp(2.2rem, 4.6vw, 3.4rem);
+    max-width:14ch;
+    margin-bottom:20px;
+  }
+  h1.headline .accent{
+    background:linear-gradient(120deg, var(--cyan), var(--blue));
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .hero p.lead{
+    color:var(--muted); font-size:1.08rem; max-width:46ch; margin-bottom:32px;
+  }
+  .hero-ctas{display:flex; flex-wrap:wrap; gap:14px;}
+  .hero-visual{position:relative; display:flex; justify-content:center; align-items:center;}
+  .hero-visual svg{width:100%; max-width:380px; height:auto;}
+  .hero-stats{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:0;
+    margin-top:56px; border-top:1px solid var(--border); padding-top:28px;
+  }
+  .hero-stats div{padding-right:20px;}
+  .hero-stats strong{
+    display:block; font-family:'Space Grotesk',sans-serif; font-size:1.7rem; color:var(--text);
+  }
+  .hero-stats span{color:var(--muted); font-size:0.86rem;}
+
+  /* Section headers */
+  .section-head{max-width:60ch; margin-bottom:48px;}
+  .section-head p.kicker{color:var(--cyan); font-size:0.85rem; margin-bottom:10px;}
+  .section-head h2{font-size:clamp(1.6rem, 3vw, 2.1rem); margin-bottom:14px;}
+  .section-head p.desc{color:var(--muted);}
+
+  /* Services */
+  .services-grid{
+    display:grid; grid-template-columns:repeat(4, 1fr); gap:1px;
+    background:var(--border); border:1px solid var(--border); border-radius:16px; overflow:hidden;
+  }
+  @media (max-width:900px){ .services-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:560px){ .services-grid{grid-template-columns:1fr;} }
+  .service-card{
+    background:var(--surface); padding:30px 26px;
+    border-left:2px solid transparent;
+    transition:border-color .2s, background .2s;
+  }
+  .service-card:hover{border-left-color:var(--blue); background:var(--surface-raised);}
+  .service-card svg{width:26px; height:26px; color:var(--blue); margin-bottom:18px;}
+  .service-card h3{font-size:1.02rem; margin-bottom:8px;}
+  .service-card p{color:var(--muted); font-size:0.9rem;}
+
+  /* Process */
+  .process{display:grid; grid-template-columns:repeat(3,1fr); gap:32px;}
+  @media (max-width:800px){ .process{grid-template-columns:1fr; gap:40px;} }
+  .process-step{position:relative; padding-left:0;}
+  .process-num{
+    font-family:'Space Grotesk',sans-serif; font-size:0.85rem; color:var(--cyan);
+    border:1px solid var(--border); width:34px; height:34px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center; margin-bottom:18px;
+  }
+  .process-step h3{font-size:1.1rem; margin-bottom:8px;}
+  .process-step p{color:var(--muted); font-size:0.92rem;}
+  .process-connector{
+    display:none;
+  }
+  @media (min-width:801px){
+    .process-step:not(:last-child)::after{
+      content:""; position:absolute; top:17px; left:calc(100% - 0px); width:32px; height:1px;
+      background:var(--border);
+    }
+  }
+
+  /* About */
+  .about-grid{display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:start;}
+  @media (max-width:800px){ .about-grid{grid-template-columns:1fr;} }
+  .about-grid h2{font-size:clamp(1.6rem,3vw,2.1rem); margin-bottom:18px; max-width:16ch;}
+  .about-grid p{color:var(--muted); margin-bottom:16px;}
+  .about-list{list-style:none; margin-top:20px;}
+  .about-list li{
+    display:flex; gap:12px; padding:14px 0; border-top:1px solid var(--border); color:var(--text); font-size:0.95rem;
+  }
+  .about-list li:last-child{border-bottom:1px solid var(--border);}
+  .about-list svg{width:18px; height:18px; color:var(--cyan); flex-shrink:0; margin-top:2px;}
+
+  /* Contact */
+  .contact-band{
+    background:var(--surface); border:1px solid var(--border); border-radius:20px;
+    padding:56px; display:grid; grid-template-columns:1fr 1fr; gap:48px;
+  }
+  @media (max-width:800px){ .contact-band{grid-template-columns:1fr; padding:36px 24px;} }
+  .contact-band h2{font-size:clamp(1.5rem,3vw,2rem); margin-bottom:14px; max-width:16ch;}
+  .contact-band > div > p{color:var(--muted); margin-bottom:28px; max-width:42ch;}
+  .contact-methods{display:flex; flex-direction:column; gap:16px;}
+  .contact-method{
+    display:flex; align-items:center; gap:14px; padding:16px 18px;
+    background:var(--surface-raised); border:1px solid var(--border); border-radius:12px;
+    transition:border-color .2s;
+  }
+  .contact-method:hover{border-color:var(--blue);}
+  .contact-method svg{width:20px; height:20px; color:var(--blue); flex-shrink:0;}
+  .contact-method .label{font-size:0.78rem; color:var(--muted);}
+  .contact-method .value{font-weight:600; font-size:0.98rem;}
+  .service-area{
+    margin-top:6px; padding-top:24px; border-top:1px solid var(--border);
+  }
+  .service-area .label{font-size:0.78rem; color:var(--muted); margin-bottom:8px;}
+  .service-area .value{font-size:0.95rem;}
+
+  /* Footer */
+  footer{border-top:1px solid var(--border); padding:36px 0;}
+  .foot-row{display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:16px;}
+  .foot-brand{display:flex; align-items:center; gap:10px; color:var(--muted); font-size:0.88rem;}
+  .foot-brand img{width:22px; height:22px; border-radius:5px;}
+  footer .links{display:flex; gap:24px;}
+  footer .links a{color:var(--muted); font-size:0.88rem;}
+  footer .links a:hover{color:var(--text);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <img src="assets/logo.png" alt="Kavya Tech Support logo">
+      <span>Kavya<b>Tech</b>Support</span>
+    </a>
+    <nav class="links">
+      <a href="#services">Services</a>
+      <a href="#process">How it works</a>
+      <a href="#about">Why us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="cta-btn" href="tel:+919871147873">Call now</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow-line">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
+          IT support in Delhi NCR, remote across India
+        </div>
+        <h1 class="headline">Technology that <span class="accent">supports</span> you.</h1>
+        <p class="lead">Kavya Tech Support keeps your computers, networks, servers and security systems running — with on-site visits in Delhi NCR and remote support wherever you are.</p>
+        <div class="hero-ctas">
+          <a class="cta-btn" href="https://wa.me/919871147873" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.6 14.3c-.2.6-1.3 1.2-1.9 1.3-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3.1s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.6.7 1.9.8 2 .1.2.1.4 0 .6-.3.6-.6.9-.9 1.3-.1.2-.3.4-.1.7.5.8 1 1.4 1.7 2 .7.6 1.3.9 1.9 1.2.2.1.4.1.6-.1.2-.2.7-.8.9-1.1.2-.3.4-.2.6-.1l1.8.9c.2.1.4.2.5.3.1.2.1 1-.1 1.6z"/></svg>
+            WhatsApp us
+          </a>
+          <a class="cta-btn ghost" href="#services">See services</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>11+ yrs</strong><span>Hands-on IT experience</span></div>
+          <div><strong>Delhi NCR</strong><span>On-site visits</span></div>
+          <div><strong>Pan-India</strong><span>Remote support</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 400 400" fill="none">
+          <circle cx="200" cy="200" r="160" stroke="#232D42" stroke-width="1"/>
+          <circle cx="200" cy="200" r="120" stroke="#232D42" stroke-width="1"/>
+          <path d="M200 40 v40 M200 320 v40 M40 200 h40 M320 200 h40" stroke="#232D42" stroke-width="1"/>
+          <path d="M110 260 L160 260 L190 220 L230 280 L260 230 L300 230" stroke="#37D6E8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="110" cy="260" r="4" fill="#37D6E8"/>
+          <circle cx="190" cy="220" r="4" fill="#37D6E8"/>
+          <circle cx="230" cy="280" r="4" fill="#37D6E8"/>
+          <circle cx="300" cy="230" r="4" fill="#37D6E8"/>
+          <path d="M120 120 L150 90 L180 120 L210 90" stroke="#2E8CFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <text x="200" y="205" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="52" font-weight="700" fill="#EAF0F7">KT</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Services</p>
+        <h2>Everything your setup needs, from one place</h2>
+        <p class="desc">Assumption: this list covers the common services an IT service provider like yours typically offers — tell me if any should be added, removed or reworded.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M2 20h20M9 20l1-4h4l1 4"/></svg>
+          <h3>Laptop &amp; desktop repair</h3>
+          <p>Hardware faults, slow systems, OS issues and upgrades — diagnosed and fixed.</p>
+        </div>
+
+        <div class="service-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v6M6 21h12M8 21v-4a4 4 0 0 1 8 0v4"/><circle cx="12" cy="12" r="3"/></svg>
+          <h3>Networking &amp; Wi-Fi setup</h3>
+          <p>Routers, switches, firewalls and Wi-Fi coverage planned and configured properly.</p>
+        </div>
+
+        <div class="service-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="6" rx="1"/><rect x="4" y="15" width="16" height="6" rx="1"/><circle cx="8" cy="6" r="0.8" fill="currentColor"/><circle cx="8" cy="18" r="0.8" fill="currentColor"/></svg>
+          <h3>Server &amp; Active Directory</h3>
+          <p>Server setup, user &amp; group policy management, and day-to-day admin support.</p>
+        </div>
+
+        <div class="service-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l8 4v5c0 5-3.4 8-8 9-4.6-1-8-4-8-9V7l8-4z"/><circle cx="12" cy="11" r="2.4"/></svg>
+          <h3>CCTV installation</h3>
+          <p>Camera planning, installation and remote-viewing setup for homes and offices.</p>
+        </div>
+
+        <div class="service-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 4v14"/></svg>
+          <h3>Microsoft 365 &amp; Google Workspace</h3>
+          <p>Account setup, mail migration, licensing and day-to-day admin for your workspace.</p>
+        </div>
+
+        <div class="service-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12a8 8 0 1 1 3 6.2"/><path d="M4 12v5h5"/></svg>
+          <h3>Remote IT support</h3>
+          <p>Most issues fixed the same day over a remote session, wherever you're based.</p>
+        </div>
+
+        <div class="service-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4v10a4 4 0 0 0 4 4h8"/><path d="M16 14l3 3-3 3"/><circle cx="7" cy="4" r="1.5" fill="currentColor" stroke="none"/></svg>
+          <h3>Data backup &amp; recovery</h3>
+          <p>Backup plans that actually get tested, plus recovery when something goes wrong.</p>
+        </div>
+
+        <div class="service-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 3v5c0 4.5-3 7.7-7 10-4-2.3-7-5.5-7-10V6l7-3z"/><path d="M9.5 12l1.8 1.8L15 10"/></svg>
+          <h3>IT AMC plans</h3>
+          <p>Fixed monthly plans for ongoing maintenance, so problems get caught early.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">How it works</p>
+        <h2>Three steps from problem to fixed</h2>
+      </div>
+      <div class="process">
+        <div class="process-step">
+          <div class="process-num">1</div>
+          <h3>Reach out</h3>
+          <p>Call, WhatsApp or email with what's going on. No ticket forms to fill first.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">2</div>
+          <h3>Diagnose</h3>
+          <p>Most issues are checked remotely first; an on-site visit is scheduled in Delhi NCR if needed.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">3</div>
+          <h3>Fixed, and supported</h3>
+          <p>You get a clear explanation of what was wrong, with an AMC option if you'd rather not deal with it again.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <h2>Run by someone who's actually done this for a living.</h2>
+        <p>Kavya Tech Support is built on over a decade of hands-on IT work — networking, servers, endpoint security and cloud platforms — across organisations that couldn't afford downtime.</p>
+        <p>That's the same standard applied here: things get explained in plain language, fixed properly, and kept working.</p>
+      </div>
+      <ul class="about-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg> Straight answers, no jargon dumped on you</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg> Remote-first, so most fixes don't need a wait</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg> On-site cover across Delhi NCR</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg> AMC plans for ongoing peace of mind</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-band">
+        <div>
+          <h2>Let's fix what's slowing you down.</h2>
+          <p>Reach out directly — most queries get a same-day response.</p>
+          <div class="service-area">
+            <div class="label">Service area</div>
+            <div class="value">On-site: Delhi NCR &nbsp;·&nbsp; Remote: anywhere in India</div>
+          </div>
+        </div>
+        <div class="contact-methods">
+          <a class="contact-method" href="tel:+919871147873">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8.1 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.9 2z"/></svg>
+            <span><span class="label">Call / WhatsApp</span><br><span class="value">+91 98711 47873</span></span>
+          </a>
+          <a class="contact-method" href="mailto:vkvijayshah@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            <span><span class="label">Email</span><br><span class="value">vkvijayshah@gmail.com</span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <div class="foot-brand">
+      <img src="assets/logo.png" alt="Kavya Tech Support logo">
+      <span>© <span id="year"></span> Kavya Tech Support. Technology that supports you.</span>
+    </div>
+    <div class="links">
+      <a href="tel:+919871147873">Call</a>
+      <a href="mailto:vkvijayshah@gmail.com">Email</a>
+      <a href="https://wa.me/919871147873" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
